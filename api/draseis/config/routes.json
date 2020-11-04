@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/draseis",
+      "handler": "draseis.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/draseis/count",
+      "handler": "draseis.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/draseis/:id",
+      "handler": "draseis.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/draseis",
+      "handler": "draseis.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/draseis/:id",
+      "handler": "draseis.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/draseis/:id",
+      "handler": "draseis.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "contacts",
+  "info": {
+    "name": "Contact",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "email": {
+      "type": "email"
+    },
+    "telephone": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "map_location": {
+      "type": "text"
+    },
+    "test__el": {
+      "type": "string"
+    },
+    "test__en": {
+      "type": "string"
+    }
+  }
+}

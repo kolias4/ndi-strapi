@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "draseis",
+  "info": {
+    "name": "draseis",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title__el": {
+      "type": "string",
+      "required": true,
+      "maxLength": 50
+    },
+    "title__en": {
+      "type": "string",
+      "required": true,
+      "maxLength": 50
+    },
+    "body__el": {
+      "type": "richtext",
+      "required": true
+    },
+    "body__en": {
+      "type": "richtext",
+      "required": true
+    },
+    "photo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
