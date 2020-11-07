@@ -22,12 +22,6 @@
     },
     "map_location": {
       "type": "text"
-    },
-    "test__el": {
-      "type": "string"
-    },
-    "test__en": {
-      "type": "string"
     }
   }
 }

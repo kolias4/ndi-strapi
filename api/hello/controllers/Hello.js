@@ -17,7 +17,7 @@ module.exports = {
 
      var {jwt} = JSON.parse(ctx.request.body)
 
-     jwt = jwt && JSON.parse(jwt) + "ua"
+     jwt = jwt && JSON.parse(jwt) 
 
      console.log(jwt)
 
