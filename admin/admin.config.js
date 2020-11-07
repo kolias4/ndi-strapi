@@ -4,6 +4,7 @@ module.exports = {
     config.plugins.push(
       new webpack.DefinePlugin({
         test:JSON.stringify(process.env.test),
+        strapi_url:JSON.stringify(process.env.STRAPI_URL)
       })
     );
 

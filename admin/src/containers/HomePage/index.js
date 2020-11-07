@@ -109,7 +109,7 @@ const HomePage = ({ global: { plugins }, history: { push } }) => {
          var jwt = sessionStorage.getItem('jwtToken')
          console.log(test)
 
-        fetch(`http://localhost:1337/hello`,{
+        fetch(`${strapi_url}/hello`,{
           method:'POST',
 
           body:JSON.stringify({jwt:jwt})
