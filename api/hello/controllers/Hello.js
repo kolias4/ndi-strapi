@@ -6,7 +6,7 @@ module.exports = {
   // GET /hello
   async index(ctx) {
 
-    var confirm_url=`${process.env.STRAPI_URL}/admin/renew-token`
+    var confirm_url=`http://localhost:1337/admin/renew-token`
 
      // const { stdout, stderr } = await exec('cd .. && cd ./gatsby-site && gatsby build && gatsby serve -p 3000');
      // ctx.send(stdout);
